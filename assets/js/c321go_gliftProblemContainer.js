@@ -63,28 +63,6 @@ self.buildBoard = function(volgnr){
 }
 
 
-
-//console.log(single_sgf);
-
-
-
-
-// console.log(single_sgf);
-// console.log(window.location.pathname);	
-//do_update();
-/**
-,hooks:{
-        problemCorrect: function () {window.alert("goed!"); board.destroy();
-        },
-        problemIncorrect: function () {window.alert("fout!")
-        }}
-**/
-
-
-// var prev_button = jQuery('#321go_previous_button');
-// var next_button= jQuery('#321go_next_button');
-//jQuery(document).ready(function(){
-
 jQuery('#321go_next_button'+self.divId).click(function(){ 
 	console.log("length: " + self.sgf_array.length +" currprob " + self.current_problem);
 	if (self.current_problem == (self.sgf_array.length-1)) return;

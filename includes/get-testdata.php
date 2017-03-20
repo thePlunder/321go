@@ -9,7 +9,7 @@
 $subarr = array('a' => 'konijn', 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
 $arr =array('a' => 'konijn', 'b' => 2, 'c' => 3, 'd' => 4, 'e' => $subarr);
 echo json_encode($arr); //In the end, you need to echo the result.
-                      //All data should be json_encode()d.
+                      //All data should be json_encode().
 
                       //You can json_encode() any value in PHP, arrays, strings,
                       //even objects.
