@@ -95,38 +95,6 @@ add_problem_sgf($content, $chapter, $section, $volgnummer);
 
 
 
-// Notice: Undefined variable: user_id in C:\Users\tijmen_van_wettum\Projects\321Go\site\321go\wordpress\wp-content\plugins\c321go_glift\includes\c321go_dbcommunication.php on line 96
-
-// Notice: wpdb::prepare was called incorrectly. The query argument of wpdb::prepare() must have a placeholder. Please see Debugging in WordPress for more information. (This message was added in version 3.9.) in C:\Users\tijmen_van_wettum\Projects\321Go\site\321go\wordpress\wp-includes\functions.php on line 3792
-// WordPress database error: [Column 'SGF' cannot be null]
-// INSERT INTO `321go_sgf` (`sgf`) VALUES (NULL)
-
-
-// Notice: Undefined variable: user_id in C:\Users\tijmen_van_wettum\Projects\321Go\site\321go\wordpress\wp-content\plugins\c321go_glift\includes\c321go_dbcommunication.php on line 107
-// WordPress database error: [Unknown column 'section' in 'field list']
-// INSERT INTO `321go_problems_to_chapter` (`sgf_id`, `chapter`, `section`) VALUES (0, NULL, 1)
-
-
-
-
-//--------------some removed lines that will come in handy later maybe.
-// These files need to be included as dependencies when on the front end.
-	// require_once( ABSPATH . 'wp-admin/includes/image.php' );
-	// require_once( ABSPATH . 'wp-admin/includes/file.php' );
-	// require_once( ABSPATH . 'wp-admin/includes/media.php' );
-	
-	// Let WordPress handle the upload.
-	// Remember, 'my_image_upload' is the name of our file input in our form above.
-	//$attachment_id = media_handle_upload( 'my_image_upload', $_POST['post_id'] );
-	//type : x-go-sgf 
-//$uploadedfile = $_FILES['my_sgf_upload'];
-//$upload_overrides = array( 'test_form' => false );
-
-//$attachment_id = wp_handle_upload($_FILES['my_sgf_upload'], $upload_overrides);  //['name']
-
-
-
-
 
 ?>
 
