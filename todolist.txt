@@ -1,0 +1,11 @@
+todolist:
+
+-make the sgf-problem an object
+  -sgf as array, with next and previous buttons on it?
+
+-students-table-set
+  -a table where we track the correct and false problems / score
+  -a table that tracks how far the student is in reading/following the course
+
+ -theme! 
+  
